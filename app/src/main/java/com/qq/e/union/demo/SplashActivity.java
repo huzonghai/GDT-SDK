@@ -170,7 +170,8 @@ public class SplashActivity extends Activity implements SplashADListener {
   }
 
   /**
-   * 设置一个变量来控制当前开屏页面是否可以跳转，当开屏广告为普链类广告时，点击会打开一个广告落地页，此时开发者还不能打开自己的App主页。当从广告落地页返回以后，
+   * 设置一个变量来控制当前开屏页面是否可以跳转，当开屏广告为普链类广告时，
+   * 点击会打开一个广告落地页，此时开发者还不能打开自己的App主页。当从广告落地页返回以后，
    * 才可以跳转到开发者自己的App主页；当开屏广告是App类广告时只会下载App。
    */
   private void next() {
